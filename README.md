@@ -1,62 +1,51 @@
-# Santander Dev Week 2023
+🎯**Api  Santander 2023**
 
-Java RESTful API criada para a Santander Dev Week.
+Api baseada no aplicativo do santander para o bootcamp 2023, sendo api restful com spring.
 
-## Principais Tecnologias
- - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
- - **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
- - **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
- - **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
- - **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
+💻**Construção**
 
-## [Link do Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=1421%3A432&mode=design&t=6dPQuerScEQH0zAn-1)
+Java 
 
-O Figma foi utilizado para a abstração do domínio desta API, sendo útil na análise e projeto da solução.
+Intellij
 
-## Diagrama de Classes (Domínio da API)
+Spring
 
-```mermaid
-classDiagram
-  class User {
-    -String name
-    -Account account
-    -Feature[] features
-    -Card card
-    -News[] news
-  }
+Plugins do spring boot
 
-  class Account {
-    -String number
-    -String agency
-    -Number balance
-    -Number limit
-  }
+Navegador
+Swagger
 
-  class Feature {
-    -String icon
-    -String description
-  }
+📋**Pré-requisitos**
 
-  class Card {
-    -String number
-    -Number limit
-  }
+Java 
 
-  class News {
-    -String icon
-    -String description
-  }
+Visual Studio Code
 
-  User "1" *-- "1" Account
-  User "1" *-- "N" Feature
-  User "1" *-- "1" Card
-  User "1" *-- "N" News
-```
+Spring
 
-## IMPORTANTE
+Plugins do spring boot
 
-Este projeto foi construído com um viés totalmente educacional para a DIO. Por isso, disponibilizamos uma versão mais robusta dele no repositório oficial da DIO:
+Navegador
 
-### [digitalinnovationone/santander-dev-week-2023-api](https://github.com/digitalinnovationone/santander-dev-week-2023-api)
+▶️**Instalação**
 
-Lá incluímos todas os endpoints de CRUD, além de aplicar boas práticas (uso de DTOs e refinamento na documentação da OpenAPI). Sendo assim, caso queira um desafio/referência mais completa é só acessar 👊🤩
+Para inicializar em seu computador:
+
+1º clique em "< code >", certifique que está na aba local
+
+2º escolha entre https ou ssh e clique no símbolo ao lado para copiar
+
+3º vá para pasta de sua preferência no computador, aperte o botão direito do mouse e com o gitbash
+instalado, clique e escreva da seguinte forma: git clone *url do projeto*
+
+4º feito! Agora inicie o software recomendado e abra a pasta do projeto e está pronto para execução!
+
+☕**Autoria**
+
+Maria Eduarda Reis
+
+
+
+
+
+
