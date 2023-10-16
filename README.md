@@ -1,6 +1,6 @@
 🎯**Api  Santander 2023**
 
-Api baseada no aplicativo do santander para o bootcamp 2023, sendo api restful com spring.
+Api base do professor da Dio, com algumas modificações. Simulando o plicativo do santander para o bootcamp 2023, sendo api restful com spring.
 
 💻**Construção**
 
